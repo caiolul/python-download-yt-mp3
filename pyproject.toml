@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-download-mp3"
+version = "0.1.0"
+description = ""
+authors = ["caiolul <caiolucena.il@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+youtube-dl = "^2021.12.17"
+pytube = "^15.0.0"
+pydub = "^0.25.1"
+yt-dlp = "^2024.8.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
